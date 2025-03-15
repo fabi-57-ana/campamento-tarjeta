@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.montaña1{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.montaña2{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+.pinos{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    z-index: 3;
+    margin-top: 150px;
+}
+
+.piso{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    z-index: 4;
+    margin-top: 450px;
+}
+
+.nube1{
+    position: absolute;
+    width: 350px;
+    top: 30px;
+    left: 150px;
+    z-index: -1;
+}
+
+.nube2{
+    width: 250px;
+    position: absolute;
+    z-index: 5;
+    left: 550px;
+    top: 50px;
+}
+
+.naranja{
+    width: 350px;
+    position: absolute;
+    z-index: 6;
+    top: 380px;
+    left: 10px;
+}
+
+.amarilla{
+    width: 350px;
+    position: absolute;
+    z-index: 7;
+    top: 380px;
+    left: 630px;
+}
+
+.banderin{
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    z-index: 11;
+    top: 180px;
+    left: 580px;
+}
+
+.fuego{
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    left: 460px;
+    top: 530px;
+}
+
+.piedras{
+    position: absolute;
+    z-index: 9;
+    width: 200px;
+    left: 400px;
+    top: 550px;
+}

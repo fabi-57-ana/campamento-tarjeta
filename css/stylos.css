@@ -1,0 +1,16 @@
+#contenido .lista {
+    margin-top: 2 rem;
+    list-style-position: inside;
+    background-color: pink;
+}
+
+/***** DARK MODE ******/
+
+body {
+    transition: background-color 0.3s color 0.3s;
+}
+
+body.dark-mode {
+    background-color: blue;
+    color: white;
+}

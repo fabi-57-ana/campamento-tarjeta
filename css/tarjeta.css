@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Un fondo claro */
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content li span {
+    color: green; /* Color para el checkmark */
+    margin-right: 5px;
+}
+
+.free {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff; /* Un color llamativo para "Gratis" */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.apply-button {
+    background-color: #28a745; /* Color verde para el botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.apply-button span {
+    margin-left: 5px;
+}
